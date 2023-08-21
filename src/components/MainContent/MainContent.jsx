@@ -8,7 +8,7 @@ const MainContentCard = ({title}) => {
     const {totalBalance} = useContext(BudgetBuddyContext)
     const isRandom = Math.round(Math.random()*10)
     return (
-        <div className=" w-[325px] md:w-[400px] lg:w-[450px] 2xl:w-[640px] 2xl:h-[840px] lg:mb-10 main-card-gradient p-[1px] rounded-[20px] shadow-card">
+        <div className=" w-[275px] lg:w-[325px] xl:w-[450px] 2xl:w-[450px] 2xl:h-[1024px] lg:mb-10 main-card-gradient p-[1px] rounded-[20px] shadow-card">
             <div options={{
                 max: 45,
                 scale: 1,
